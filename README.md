@@ -6,5 +6,5 @@ Rebranding and Redesigning Project for <a href="http://mydegree.lk/" target="_bl
 <li>Author:			Asith Wijenayake</li>
 <li>Primary use: Students/Teachers/Collegers</li>
 <br />
-<img src="https://img.shields.io/aur/license/yaourt.svg"> <img src="https://img.shields.io/badge/Bootstrap%20-3.3.7-blue.svg"> <img src="https://img.shields.io/badge/Relesed%20-1.0-orange.svg">
+<img src="https://img.shields.io/aur/license/yaourt.svg"> <img src="https://img.shields.io/badge/Bootstrap%20-3.3.7-blue.svg"> <img src="https://img.shields.io/badge/bulding%20--%20frontend%20-65%25-yellowgreen.svg">
 </ul>
