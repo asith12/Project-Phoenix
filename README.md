@@ -1,5 +1,5 @@
 # Project-Phoenix
-Rebranding and Redesigning Project for <a href="http://mydegree.lk/" target="_blank">mydegree.lk</a> to yourfuture.lk 
+Redesigning Project for <a href="http://mydegree.lk/" target="_blank">mydegree.lk</a>
 
 <ul>
 <li>Version:		1.5</li>
