@@ -1465,19 +1465,21 @@ h4 {
 .bs-calltoaction-degree-show .cta-contents {
   width: 90%;
   margin: 0 auto; }
-  .bs-calltoaction-degree-show .cta-contents .panel {
-    padding: 0px !important;
-    margin: 5px !important;
-    min-height: 94px;
-    position: relative;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
-    .bs-calltoaction-degree-show .cta-contents .panel:hover {
-      background: #efefef; }
-    .bs-calltoaction-degree-show .cta-contents .panel .panel-body h4 {
+  .bs-calltoaction-degree-show .cta-contents .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    .bs-calltoaction-degree-show .cta-contents .col-md-6 .panel {
+      margin: 5px !important;
+      min-height: 94px;
+      position: relative;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+      .bs-calltoaction-degree-show .cta-contents .col-md-6 .panel:hover {
+        background: #efefef; }
+    .bs-calltoaction-degree-show .cta-contents .col-md-6 .panel-body h4 {
       margin: 0px !important;
       font-size: 18px;
       padding: 12px;

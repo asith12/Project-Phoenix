@@ -1882,19 +1882,27 @@ span.round-tab:hover {
 	 .cta-contents{
 			width: 90%;
 			margin:  0 auto;
-		.panel {
-			padding: 0px !important;
-			margin: 5px !important;
-			min-height: 94px;
-			position: relative;
-			-webkit-transition: all 0.2s ease-in-out;
-		    -moz-transition: all 0.2s ease-in-out;
-		    -ms-transition: all 0.2s ease-in-out;
-		    -o-transition: all 0.2s ease-in-out;
-		    transition: all 0.2s ease-in-out;
-			&:hover{
-				background: #efefef;
+			
+
+			.col-md-6{
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				
+				.panel {
+			
+					margin: 5px !important;
+					min-height: 94px;
+					position: relative;
+					-webkit-transition: all 0.2s ease-in-out;
+				    -moz-transition: all 0.2s ease-in-out;
+				    -ms-transition: all 0.2s ease-in-out;
+				    -o-transition: all 0.2s ease-in-out;
+				    transition: all 0.2s ease-in-out;
+					&:hover{
+						background: #efefef;
+				}
 			}
+		
 			
 			.panel-body{
 				 
