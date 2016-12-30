@@ -1875,6 +1875,26 @@ span.round-tab:hover {
 
 /*----------------------Custom Radio Buttons End ---------------------------------------*/
 
+
+/*----------------------Select Box Style-------------------------------------------*/
+		.subject-select-box {
+		    overflow: hidden;
+		    background: #fafafa url("images/arrow-icon.png") no-repeat 90% 50%;
+		}
+
+		.subject-select-box select {
+		    padding: 5px 8px;
+		    width: 130%;
+		    border: none;
+		    box-shadow: none;
+		    background: transparent;
+		    background-image: none;
+		    -webkit-appearance: none;
+		}
+	
+/*----------------------Select Box Style End-------------------------------------------*/
+
+
 /*----------------------Degree Showing Step/ Well Designs---------------------------------------*/
 
 .bs-calltoaction-degree-show{
@@ -1909,7 +1929,7 @@ span.round-tab:hover {
 					h4{
 					
 					margin: 0px !important;
-					font-size: 18px;
+					font-size: 17px;
 					padding: 12px;
 					position: absolute;
 					top: 50%;
