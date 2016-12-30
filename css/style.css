@@ -1466,6 +1466,8 @@ h4 {
   width: 90%;
   margin: 0 auto; }
   .bs-calltoaction-degree-show .cta-contents .panel {
+    padding: 0px !important;
+    margin: 5px !important;
     min-height: 94px;
     position: relative;
     -webkit-transition: all 0.2s ease-in-out;
