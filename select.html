@@ -51,6 +51,12 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	
+	<!-- Include SmartWizard CSS -->
+    <link href="css/smart_wizard.css" rel="stylesheet">
+    
+    <!-- Optional SmartWizard theme -->
+    
+    <link href="css/smart_wizard_theme_dots.css" rel="stylesheet">
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	
@@ -206,394 +212,32 @@
 
 	<div id="fh5co-project">
 		<div class="container">
-					<div class="row animate-box">
-						<section>
-				        <div class="wizard">
-				            <div class="wizard-inner">
-				                <div class="connecting-line"></div>
-				                <ul class="nav nav-tabs" role="tablist">
-
-				                    <li role="presentation" class="active">
-				                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1. Select A/L Stream">
-				                            <span class="round-tab">
-				                                <i class="icon-list"></i>
-				                            </span>
-				                        </a>
-				                    </li>
-
-				                    <li role="presentation" class="disabled">
-				                        <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2. Select Subjects and Results">
-				                            <span class="round-tab">
-				                                <i class="icon-check"></i>
-				                            </span>
-				                        </a>
-				                    </li>
-				                    <li role="presentation" class="disabled">
-				                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step3. Enter Your Details">
-				                            <span class="round-tab">
-				                                <i class="icon-trophy"></i>
-				                            </span>
-				                        </a>
-				                    </li>
-
-				                    <li role="presentation" class="disabled">
-				                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
-				                            <span class="round-tab">
-				                                <i class="icon-check"></i>
-				                            </span>
-				                        </a>
-				                    </li>
-				                </ul>
-				            </div>
-
-				            <form role="form">
-				                <div class="tab-content">
-				                	
-				                	<!--first slide-->
-				                    <div class="tab-pane fade in active" role="tabpanel" id="step1">
-				                        <h1 class="cta-title">Select Your A/L Stream</h1>
-				                        <div class="bs-calltoaction  bs-calltoaction-primary">
-						                    <div class="row">
-						                        
-						                        <div class="col-md-12 cta-contents subject-content">
-						                          		
-						                          		<div class="col-md-6">	
-															<div class="panel panel-default subjectstile">
-																<div class="panel-body">
-																	<h4><strong>Art</strong></h4>
-																</div>	
-															</div>
-														</div>
-
-						                           		<div class="col-md-6">	
-															<div class="panel panel-default subjectstile">
-																<div class="panel-body">
-																	<h4><strong>Commerce</strong></h4>
-																</div>	
-															</div>
-														</div>
-
-						                            	<div class="col-md-6">	
-															<div class="panel panel-default subjectstile">
-																<div class="panel-body">
-																	<h4><strong>Physical Science</strong></h4>
-																</div>	
-															</div>
-														</div>
-
-						                            	<div class="col-md-6">	
-															<div class="panel panel-default subjectstile">
-																<div class="panel-body">
-																	<h4><strong>Biologycal Science</strong></h4>
-																</div>	
-															
-															</div>
-														</div>
-
-						                        </div><!--subject contend Closed-->
-						                     
-						                     </div><!--Row Closed-->
-				                		
-				                		</div>
-				                        
-				                        <ul class="list-inline pull-right">
-				                            <li><button type="button" class="btn btn-primary next-step" >Save and continue</button></li>
-				                        </ul>
-				                    </div>
-				                    
-								   
-								   <!--Step two-->
-				                   <div class="tab-pane fade" role="tabpanel" id="step2">
-				                    	<h1 class="cta-title">Selects your Subjects and Results</h1>
-				                        <div class="bs-calltoaction bs-calltoaction-info">
-				                    		<div class="row">
-				                        		<div class="col-md-12 cta-contents subject-select">
-						                            <form class="form-horizontal">
-													  <div class="form-group row">
-													    <label class="col-sm-2 control-label">First Subject</label>
-													    <div class="col-sm-6">
-														    <select class="col-md-6 form-control subject-select-box" id="first-subject">
-															  <option selected id="notselect">-Not Select-</option>
-															  <option>1</option>
-															  <option>2</option>
-															  <option>3</option>
-															  <option>4</option>
-															  <option>5</option>
-															</select>
-														</div>
-														<div class="col-sm-4" style="margin-top:15px;">
-															<label class="radio-inline control control--radio">
-															  <input type="radio" name="subjectone" id="inlineRadio1" value="option1"> A
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjectone" id="inlineRadio2" value="option2"> B
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjectone" id="inlineRadio3" value="option3"> C
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjectone" id="inlineRadio3" value="option3" checked="checked"> S
-															  <div class="control__indicator"></div>
-															</label>
-														</div>		
-
-													  </div>
-													  
-													  <div class="form-group row">
-													    <label class="col-sm-2 control-label subject-select-box">Second Subject</label>
-													    <div class="col-sm-6">
-														    <select class="col-md-6 form-control" id="second-subject">
-															  <option selected id="notselect">-Not Select-</option>
-															  <option>1</option>
-															  <option>2</option>
-															  <option>3</option>
-															  <option>4</option>
-															  <option>5</option>
-															</select>
-														</div>
-														<div class="col-sm-4" style="margin-top:15px;">
-															<label class="radio-inline control control--radio">
-															  <input type="radio" name="subjecttwo" id="inlineRadio1" value="option1"> A
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjecttwo" id="inlineRadio2" value="option2"> B
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjecttwo" id="inlineRadio3" value="option3"> C
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjecttwo" id="inlineRadio3" value="option3" checked="checked"> S
-															  <div class="control__indicator"></div>
-															</label>
-														</div>
-													  </div>
-													  <div class="form-group row">
-													    <label class="col-sm-2 control-label subject-select-box">Third Subject</label>
-													    <div class="col-sm-6">
-														    <select class="col-md-6 form-control" id="third-subject">
-															  <option selected id="notselect">-Not Select-</option>
-															  <option>1</option>
-															  <option>2</option>
-															  <option>3</option>
-															  <option>4</option>
-															  <option>5</option>
-															</select>
-														</div>
-														<div class="col-sm-4" style="margin-top:15px;">
-															<label class="radio-inline control control--radio">
-															  <input type="radio" name="subjecttree" id="inlineRadio1" value="option1"> A
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjecttree" id="inlineRadio2" value="option2"> B
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjecttree" id="inlineRadio3" value="option3"> C
-															  <div class="control__indicator"></div>
-															</label>
-															<label class="radio-inline control control--radio">
-															  <input  type="radio" name="subjecttree" id="inlineRadio3" value="option3" checked="checked"> S
-															  <div class="control__indicator"></div>
-															</label>
-														</div>
-
-													  </div>
-
-													</form>
-				                        		</div>
-				                     		</div>
-				                		</div>
-				                        <ul class="list-inline pull-right">
-				                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-				                            <li><button type="button" class="btn btn-primary next-step" >Save and continue</button></li>
-				                        </ul>
-				                   </div>
-				                    
-									<!--Step 3 - Name and Distric adding-->						
-				                    <div class="tab-pane fade" role="tabpanel" id="step3">
-				                        <h1 class="cta-title">Please Enter Your Details</h1>
-				                        <div class="bs-calltoaction bs-calltoaction-success">
-						                    <div class="row">
-						                        <div class="col-md-12 cta-contents">
-						                           
-						                           <!--Details Enter Form--> 
-						                           <form class="form-horizontal">
-						                           	  <div class="form-group">
-													    <label for="text" class="col-sm-2 control-label">Name<small> (optional)</small></label>
-													    <div class="col-xs-12 col-sm-12 col-md-8">
-													      <input type="text" class="form-control" id="text" placeholder="John Doe">
-													    </div>
-													  </div>
-													  
-													  <div class="form-group">
-													    <label for="inputEmail3" class="col-sm-2 control-label">Email <small>(Optional)</small></label>
-													    <div class="col-xs-12 col-sm-12 col-md-8">
-													      <input type="email" class="form-control" id="email" placeholder="example@email.com">
-													    </div>
-													  </div>
-													  
-													  <div class="form-group">
-													    <label for="distric" class="col-sm-2 control-label" data-toggle="tooltip" data-placement="left" title="Required">Distric <span class="required">*</span></label>
-													    <div class="col-xs-12 col-sm-12 col-md-8">
-														    <select class="col-md-6 form-control" placeholder="Select Distric" required>
-																  <option selected>Select Distric</option>
-																  <option>Kegalle</option>
-																  <option>Colombo</option>
-																  <option>Mathara</option>
-																  <option>Galle</option>
-																  <option>Gampaha</option>
-															</select>
-													    </div>
-													  </div>
-													  
-													  <div class="form-group">
-													    <label for="medium" class="col-sm-2 control-label" data-toggle="tooltip" data-placement="left" title="Required">Medium<span class="required">*</span></label>
-													    <div class="col-xs-12 col-sm-12 col-md-8">
-														    <select class="col-md-6 form-control" placeholder="Select Medium" required>
-																  <option selected>Select Medium</option>
-																  <option>Sinhala</option>
-																  <option>English</option>
-																  <option>Tamil</option>
-															</select>
-													    </div>
-													  </div>
-													  
-													</form>
-													<!--Details Enter Form End-->
-						                        </div>
-						                        
-						                     </div>
-				                		</div>
-				                		<ul class="pull-left">
-				                			<button type="button" class="btn btn-default" href="#faq" data-toggle="modal">FAQ : Why should i provide My Details ?</button>
-				                		</ul>
-				                        <ul class="list-inline pull-right">
-				                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-				                            <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
-				                        </ul>
-				                    </div>
-									<!--Step 3 End-->
-				                    
-								   <!---Final/ Degree Showing page/Step 4 Start-->
-				                    <div class="tab-pane" role="tabpanel" id="complete">
-				                        <h1 class="cta-title">Eligible Degree Programs Based On Your Subject Combinations.<br />
-											<small>Note: Final Eligibility Will Be Determined By Your Z Score</small>
-				                        </h1>
-				                        <div class="container">
-				                        	<ul class="list-inline pull-right">
-				                            	<li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-				                            </ul>
-										   
-											<div class="bs-calltoaction bs-calltoaction-degree-show">
-							                    <div class="row">
-							                        <div class="cta-contents">
-														
-														<div class="col-md-6">	
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Accounting </h4>
-																</div>	
-															</div>
-														</div>
-
-														<div class="col-md-6">		
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Administration  </h4>
-																</div>	
-															</div>
-														</div>
-														
-														<div class="col-md-6">
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Advertising </h4>
-																</div>	
-															</div>
-														</div>
-														
-														<div class="col-md-6">
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in African Studies  </h4>
-																</div>	
-															</div>
-														</div>
-														
-														<div class="col-md-6">	
-															<div class="panel panel-default">
-																<div class="panel-body">	
-																	<h4>Bachelors Degrees in Agribusiness </h4>
-																</div>	
-															</div>
-														</div>	
-														
-														<div class="col-md-6">
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Agricultural Economics </h4>
-																</div>	
-															</div>
-														</div>
-														
-														<div class="col-md-6">	
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Agricultural Education  </h4>
-																</div>	
-															</div>
-														</div>
-														
-														<div class="col-md-6">	
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Agricultural Engineering</h4>
-																</div>	
-															</div>
-														</div>
-
-														<div class="col-md-6">	
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Agricultural Education  </h4>
-																</div>	
-															</div>
-														</div>
-														
-														<div class="col-md-6">	
-															<div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>Bachelors Degrees in Agricultural Engineering</h4>
-																</div>	
-															</div>
-														</div>
-															
-
-
-							                        </div><!--close cta contend-->
-
-							                    </div>
-												<div class="clearfix"></div>
-							                    <div class="bottom-line" style="border-bottom: solid 1px #ddd"></div>
-						                    </div> <!-- Degree show panel-->   	
-
-										</div>
-				                    </div>
-				                    <!--Final Step Closed-->
-				                    <div class="clearfix"></div>
-				                </div>
-				            </form>
-				        </div>
-				    </section>
+			<div class="row animate-box">
+						<div id="smartwizard">
+						    <ul>
+						        <li><a href="#step-1">Step Title<br /><small>Step description</small></a></li>
+						        <li><a href="#step-2">Step Title<br /><small>Step description</small></a></li>
+						        <li><a href="#step-3">Step Title<br /><small>Step description</small></a></li>
+						        <li><a href="#step-4">Step Title<br /><small>Step description</small></a></li>
+						    </ul>
+						 
+						    <div>
+						        <div id="step-1" class="">
+						            Step Content
+						        </div>
+						        <div id="step-2" class="">
+						            Step Content
+						        </div>
+						        <div id="step-3" class="">
+						            Step Content
+						        </div>
+						        <div id="step-4" class="">
+						            Step Content
+						        </div>
+						    </div>
+						</div>
 				   </div>
-					</div>
+				</div>
 				<!--form wizard End-->
 	
 	</div>
@@ -719,25 +363,187 @@
 		<!--FAQ Modal Closed-->
 
 
+	 <!-- Include jQuery Validator plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
 
-	
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+            // Toolbar extra buttons
+            var btnFinish = $('<button></button>').text('Finish')
+                                             .addClass('btn btn-info')
+                                             .on('click', function(){ 
+                                                    if( !$(this).hasClass('disabled')){ 
+                                                        var elmForm = $("#myForm");
+                                                        if(elmForm){
+                                                            elmForm.validator('validate'); 
+                                                            var elmErr = elmForm.find('.has-error');
+                                                            if(elmErr && elmErr.length > 0){
+                                                                alert('Oops we still have error in the form');
+                                                                return false;    
+                                                            }else{
+                                                                alert('Great! we are ready to submit form');
+                                                                elmForm.submit();
+                                                                return false;
+                                                            }
+                                                        }
+                                                    }
+                                                });
+            var btnCancel = $('<button></button>').text('Cancel')
+                                             .addClass('btn btn-danger')
+                                             .on('click', function(){ 
+                                                    $('#smartwizard').smartWizard("reset"); 
+                                                    $('#myForm').find("input, textarea").val(""); 
+                                                });                         
+            
+            
+            
+            // Smart Wizard
+            $('#smartwizard').smartWizard({ 
+                    selected: 0, 
+                    theme: 'dots',
+                    transitionEffect:'fade',
+                    toolbarSettings: {toolbarPosition: 'bottom',
+                                      toolbarExtraButtons: [btnFinish, btnCancel]
+                                    },
+                    anchorSettings: {
+                                markDoneStep: true, // add done css
+                                markAllPreviousStepsAsDone: true, // When a step selected by url hash, all previous steps are marked done
+                                removeDoneStepOnNavigateBack: true, // While navigate back done step after active step will be cleared
+                                enableAnchorOnDoneStep: true // Enable/Disable the done steps navigation
+                            }
+                 });
+            
+            $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+                var elmForm = $("#form-step-" + stepNumber);
+                // stepDirection === 'forward' :- this condition allows to do the form validation 
+                // only on forward navigation, that makes easy navigation on backwards still do the validation when going next
+                if(stepDirection === 'forward' && elmForm){
+                    elmForm.validator('validate'); 
+                    var elmErr = elmForm.children('.has-error');
+                    if(elmErr && elmErr.length > 0){
+                        // Form validation failed
+                        return false;    
+                    }
+                }
+                return true;
+            });
+            
+            $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection) {
+                // Enable finish button only on last step
+                if(stepNumber == 3){ 
+                    $('.btn-finish').removeClass('disabled');  
+                }else{
+                    $('.btn-finish').addClass('disabled');
+                }
+            });                               
+            
+        });   
+    </script>  
+    
+
+    <!-- Include SmartWizard JavaScript source -->
+    <script type="text/javascript" src="js/jquery.smartWizard.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+            // Toolbar extra buttons
+            var btnFinish = $('<button></button>').text('Finish')
+                                             .addClass('btn btn-info')
+                                             .on('click', function(){ 
+                                                    if( !$(this).hasClass('disabled')){ 
+                                                        var elmForm = $("#myForm");
+                                                        if(elmForm){
+                                                            elmForm.validator('validate'); 
+                                                            var elmErr = elmForm.find('.has-error');
+                                                            if(elmErr && elmErr.length > 0){
+                                                                alert('Oops we still have error in the form');
+                                                                return false;    
+                                                            }else{
+                                                                alert('Great! we are ready to submit form');
+                                                                elmForm.submit();
+                                                                return false;
+                                                            }
+                                                        }
+                                                    }
+                                                });
+            var btnCancel = $('<button></button>').text('Cancel')
+                                             .addClass('btn btn-danger')
+                                             .on('click', function(){ 
+                                                    $('#smartwizard').smartWizard("reset"); 
+                                                    $('#myForm').find("input, textarea").val(""); 
+                                                });                         
+            
+            
+            
+            // Smart Wizard
+            $('#smartwizard').smartWizard({ 
+                    selected: 0, 
+                    theme: 'dots',
+                    transitionEffect:'fade',
+                    toolbarSettings: {toolbarPosition: 'bottom',
+                                      toolbarExtraButtons: [btnFinish, btnCancel]
+                                    },
+                    anchorSettings: {
+                                markDoneStep: true, // add done css
+                                markAllPreviousStepsAsDone: true, // When a step selected by url hash, all previous steps are marked done
+                                removeDoneStepOnNavigateBack: true, // While navigate back done step after active step will be cleared
+                                enableAnchorOnDoneStep: true // Enable/Disable the done steps navigation
+                            }
+                 });
+            
+            $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+                var elmForm = $("#form-step-" + stepNumber);
+                // stepDirection === 'forward' :- this condition allows to do the form validation 
+                // only on forward navigation, that makes easy navigation on backwards still do the validation when going next
+                if(stepDirection === 'forward' && elmForm){
+                    elmForm.validator('validate'); 
+                    var elmErr = elmForm.children('.has-error');
+                    if(elmErr && elmErr.length > 0){
+                        // Form validation failed
+                        return false;    
+                    }
+                }
+                return true;
+            });
+            
+            $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection) {
+                // Enable finish button only on last step
+                if(stepNumber == 3){ 
+                    $('.btn-finish').removeClass('disabled');  
+                }else{
+                    $('.btn-finish').addClass('disabled');
+                }
+            });                               
+            
+        });   
+    </script>  
 	
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
+	
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
+	
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
+	
 	<!-- Stellar Parallax -->
 	<script src="js/jquery.stellar.min.js"></script>
+	
 	<!-- Carousel -->
 	<script src="js/owl.carousel.min.js"></script>
+	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	
 	<!--Form Validation js-->
 	<script src="js/jqBootstrapValidation.js"></script>
+	
 	<!--Form Validation js Second-->
 	<script src="js/jquery.steps.js"></script>
+	
 	<!--form wizard js-->
 	<script type="text/javascript">
 		$(document).ready(function () {
