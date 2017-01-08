@@ -1697,38 +1697,71 @@ span.round-tab:hover {
     border-color:#fff;
 }
 
-.subjectstile{
-	height: 90px;
-	margin:10px;
-	border: 2px solid #e0e0e0;
-	border-radius: 3px;
+/**********************************SUBJECT SELECT FIRST STEP*************************************/	
+.subject-content{
 	
-
-	h4{
+			width: 90%;
+			margin:  0 auto;
 			
-	}
-}
-.subject-contend{
-	display: table;
-		
-		.subjectstile:hover{
-			border: 2px solid #a5a5a5;
-		}
-		
-}
-.subjectstile-active{
-			border-color: blue;
-			background-image: url(images/art_bg.png);
-		}
 
-.required{
-	color: #ea3d3d;
-}
-.tab-pane{
-	.cta-title{
-		font-size: 28px;
-	}
-}
+			.col-md-6{
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				
+				.panel {
+
+					margin: 5px !important;
+					min-height: 94px;
+					position: relative;
+					-webkit-transition: all 0.2s ease-in-out;
+				    -moz-transition: all 0.2s ease-in-out;
+				    -ms-transition: all 0.2s ease-in-out;
+				    -o-transition: all 0.2s ease-in-out;
+				    transition: all 0.2s ease-in-out;
+					
+
+							&:hover{
+								background: #efefef;
+								// border-color: #3399cc;
+							}
+				
+				}
+		
+			
+			.panel-body{
+				 
+							h4{
+							
+							margin: 0px !important;
+							font-size: 17px;
+							padding: 12px;
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							font-size: 18px;
+							text-transform: uppercase;
+							
+							}
+
+						}
+			
+					
+					}
+				
+				}	
+
+/**********************************SUBJECT SELECT FIRST STEP END*************************************/	
+
+// .required{
+// 	color: #ea3d3d;
+// }
+// .tab-pane{
+// 	.cta-title{
+// 		font-size: 28px;
+// 	}
+//   }
+
 /*----------------------form wizards style End--------------------------*/
 
 
@@ -1920,6 +1953,7 @@ span.round-tab:hover {
 				    transition: all 0.2s ease-in-out;
 					&:hover{
 						background: #efefef;
+						// border-color: #3399cc;
 				}
 			}
 		
