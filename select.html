@@ -258,7 +258,6 @@
 						                        <div class="col-md-12 cta-contents subject-content">
 						                          		
 						                          		<div class="col-md-3">	
-															<div class=""></div>
 															<div class="panel panel-default subjectstile">
 																<div class="panel-body">
 																	
@@ -271,7 +270,6 @@
 																
 																</div>	
 															</div>
-														
 														</div>
 
 						                           		<div class="col-md-3">	
@@ -849,13 +847,13 @@
 	<script type="text/javascript">
 		
 		$('.panel').click(function() {
-			$('.panel-click-border').toggleClass('panel-click-border');    
-			$(this).toggleClass('panel-click-border');
+		    $('input[name="streamselect"]', this).prop("checked",true);
+		    $('.panel').removeClass('panel-click-border');
+		    $(this).addClass('panel-click-border');
 		});
-
-
 	</script>
 	<!--SELECT A/L STREAM TILE SCRIPT-->
+	
 	</body>
 </html>
 
