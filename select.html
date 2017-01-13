@@ -195,7 +195,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>SELECT YOUR A\L STREAM</h1>
+							<h1>FIND YOUR PATH</h1>
 							<h2>Confused on this steps ? Find out  <a href="index.html#fh5co-services" target="_blank">How to Do</a></h2>
 						</div>
 					</div>
@@ -257,34 +257,64 @@
 						                        
 						                        <div class="col-md-12 cta-contents subject-content">
 						                          		
-						                          		<div class="col-md-6">	
+						                          		<div class="col-md-3">	
+															<div class=""></div>
 															<div class="panel panel-default subjectstile">
 																<div class="panel-body">
+																	
 																	<h4><strong>Art</strong></h4>
+																	
+																	<label class="radio-inline control control--radio">
+																	  <input type="radio" name="streamselect" id="inlineRadio1" value="option1">
+																	  <div class="control__indicator first-step-Control__indicator"></div>
+																	</label>
+																
 																</div>	
 															</div>
+														
 														</div>
 
-						                           		<div class="col-md-6">	
+						                           		<div class="col-md-3">	
 															<div class="panel panel-default subjectstile">
 																<div class="panel-body">
+																	
 																	<h4><strong>Commerce</strong></h4>
+
+																	<label class="radio-inline control control--radio">
+																	  <input type="radio" name="streamselect" id="inlineRadio1" value="option2">
+																	  <div class="control__indicator first-step-Control__indicator"></div>
+																	</label>
+																
 																</div>	
 															</div>
 														</div>
 
-						                            	<div class="col-md-6">	
+						                            	<div class="col-md-3">	
 															<div class="panel panel-default subjectstile">
 																<div class="panel-body">
+																	
 																	<h4><strong>Physical Science</strong></h4>
+
+																	<label class="radio-inline control control--radio">
+																	  <input type="radio" name="streamselect" id="inlineRadio1" value="option3">
+																	  <div class="control__indicator first-step-Control__indicator "></div>
+																	</label>
+																
 																</div>	
 															</div>
 														</div>
 
-						                            	<div class="col-md-6">	
+						                            	<div class="col-md-3">	
 															<div class="panel panel-default subjectstile">
 																<div class="panel-body">
+																	
 																	<h4><strong>Biologycal Science</strong></h4>
+
+																	<label class="radio-inline control control--radio">
+																	  <input type="radio" name="streamselect" id="inlineRadio1" value="option4">
+																	  <div class="control__indicator first-step-Control__indicator"></div>
+																	</label>
+
 																</div>	
 															
 															</div>
@@ -724,21 +754,30 @@
 	
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
+	
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
+	
 	<!-- Waypoints -->
+	
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Stellar Parallax -->
+	
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Carousel -->
+	
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Main -->
+	
 	<script src="js/main.js"></script>
 	<!--Form Validation js-->
+	
 	<script src="js/jqBootstrapValidation.js"></script>
 	<!--Form Validation js Second-->
+	
 	<script src="js/jquery.steps.js"></script>
 	<!--form wizard js-->
+	
 	<script type="text/javascript">
 		$(document).ready(function () {
 		    //Initialize tooltips
@@ -805,7 +844,18 @@
 	<script>
  		$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
 	</script>
-	
+
+	<!--SELECT A/L STREAM TILE SCRIPT-->
+	<script type="text/javascript">
+		
+		$('.panel').click(function() {
+			$('.panel-click-border').toggleClass('panel-click-border');    
+			$(this).toggleClass('panel-click-border');
+		});
+
+
+	</script>
+	<!--SELECT A/L STREAM TILE SCRIPT-->
 	</body>
 </html>
 

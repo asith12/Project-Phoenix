@@ -1704,14 +1704,14 @@ span.round-tab:hover {
 			margin:  0 auto;
 			
 
-			.col-md-6{
+			.col-md-3{
 				padding-left: 0 !important;
 				padding-right: 0 !important;
 				
 				.panel {
-
+					cursor:pointer;
 					margin: 5px !important;
-					min-height: 94px;
+					height: 241.50px;
 					position: relative;
 					-webkit-transition: all 0.2s ease-in-out;
 				    -moz-transition: all 0.2s ease-in-out;
@@ -1726,6 +1726,9 @@ span.round-tab:hover {
 							}
 				
 				}
+			.panel-click-border{
+				border: solid  #3399cc;
+			}	
 		
 			
 			.panel-body{
@@ -1845,7 +1848,9 @@ span.round-tab:hover {
   height: 20px;
   background: #e6e6e6;
 }
-
+.first-step-Control__indicator{
+	top:-10px !important;
+}
 .control--radio .control__indicator {
   border-radius: 50%;
 }
@@ -1942,7 +1947,7 @@ span.round-tab:hover {
 				padding-right: 0 !important;
 				
 				.panel {
-			
+						
 					margin: 5px !important;
 					min-height: 94px;
 					position: relative;
