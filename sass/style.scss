@@ -1,4 +1,5 @@
 $font-primary: 'Work Sans', Arial, sans-serif;
+$font-secondry: 'Montserrat', sans-serif;
 
 
 
@@ -76,7 +77,6 @@ $form-group-margin-bottom:       30px !default;
 	font-weight: normal;
 	font-style: normal;
 }
-
 @mixin icomoon() {
 	
 	font-family: 'icomoon';
@@ -96,7 +96,7 @@ $form-group-margin-bottom:       30px !default;
 // Import 
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 
 
@@ -1599,6 +1599,7 @@ span.round-tab:hover {
     .bs-calltoaction > .row{
         display:table;
         width: calc(100% + 30px);
+        font-family: $font-secondry;
     }
       .bs-calltoaction .row .form-group .form-control{
       	color:#000!important;
@@ -1699,7 +1700,7 @@ span.round-tab:hover {
 
 /**********************************SUBJECT SELECT FIRST STEP*************************************/	
 .subject-content{
-	
+			
 			width: 90%;
 			margin:  0 auto;
 			
@@ -1732,11 +1733,17 @@ span.round-tab:hover {
 		
 			
 			.panel-body{
-				 
+				 			img{
+								display: block;
+								max-height: 85px;
+
+				 			}	
+
+
+
 							h4{
-							
+							font-family: $font-secondry;
 							margin: 0px !important;
-							font-size: 17px;
 							padding: 12px;
 							position: absolute;
 							top: 50%;
@@ -1756,14 +1763,9 @@ span.round-tab:hover {
 
 /**********************************SUBJECT SELECT FIRST STEP END*************************************/	
 
-// .required{
-// 	color: #ea3d3d;
-// }
-// .tab-pane{
-// 	.cta-title{
-// 		font-size: 28px;
-// 	}
-//   }
+
+
+
 
 /*----------------------form wizards style End--------------------------*/
 
@@ -1849,7 +1851,7 @@ span.round-tab:hover {
   background: #e6e6e6;
 }
 .first-step-Control__indicator{
-	top:-10px !important;
+	top:-94px !important
 }
 .control--radio .control__indicator {
   border-radius: 50%;
@@ -1947,7 +1949,7 @@ span.round-tab:hover {
 				padding-right: 0 !important;
 				
 				.panel {
-						
+					cursor:pointer;	
 					margin: 5px !important;
 					min-height: 94px;
 					position: relative;
@@ -1962,13 +1964,163 @@ span.round-tab:hover {
 				}
 			}
 		
-			
+			.panel-click-border{
+				border: 2px solid #3399cc;
+			}
 			.panel-body{
 				 
 					h4{
-					
+
+					font-family: $font-secondry;
 					margin: 0px !important;
-					font-size: 17px;
+					font-size: 15px;
+					padding: 12px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					
+					}
+
+			}
+			
+		}
+	}
+	
+}
+
+.cta-title{
+	text-align:center;
+	font-size: 32px;
+}
+/*----------------------Degree Showing Step/ Well Designs End---------------------------------------*/
+
+
+
+
+
+
+//=================================== Media quary Start =============================================//
+
+@media(max-width:425px){
+	
+	h1, .h1{
+		font-size: 20px !important;
+		text-align: center !important;
+
+	}
+	
+
+	/*------------------------------SUBJECT SELECT FIRST STEP-----------------------------------*/	
+.subject-content{
+			
+			width: 90%;
+			margin:  0 auto;
+			
+
+			.col-md-3{
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				
+				.panel {
+					cursor:pointer;
+					margin: 5px !important;
+					height: 150px;
+					position: relative;
+					-webkit-transition: all 0.2s ease-in-out;
+				    -moz-transition: all 0.2s ease-in-out;
+				    -ms-transition: all 0.2s ease-in-out;
+				    -o-transition: all 0.2s ease-in-out;
+				    transition: all 0.2s ease-in-out;
+					
+
+							&:hover{
+								background: #efefef;
+								// border-color: #3399cc;
+							}
+				
+				}
+			.panel-click-border{
+				border: solid  #3399cc;
+			}	
+		
+			
+			.panel-body{
+				 			img{
+								display: block;
+								max-height: 50px;
+
+				 			}	
+
+
+
+							h4{
+							font-family: $font-secondry;
+							margin: 0px !important;
+							padding: 12px;
+							position: absolute;
+							top: 60%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							font-size: 10px;
+							text-transform: uppercase;
+							
+							}
+
+						}
+			
+					
+					}
+				
+				}
+
+					
+	.first-step-Control__indicator{
+		top:40px !important
+	}	
+
+/*----------------------SUBJECT SELECT FIRST STEP END--------------------------------*/					
+
+
+/*----------------------Degree Showing Step/ Well Designs---------------------------------------*/
+
+.bs-calltoaction-degree-show{
+		
+	 .cta-contents{
+			width: 90%;
+			margin:  0 auto;
+			
+
+			.col-md-6{
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				
+				.panel {
+					cursor:pointer;	
+					margin: 5px !important;
+					min-height: 94px;
+					position: relative;
+					-webkit-transition: all 0.2s ease-in-out;
+				    -moz-transition: all 0.2s ease-in-out;
+				    -ms-transition: all 0.2s ease-in-out;
+				    -o-transition: all 0.2s ease-in-out;
+				    transition: all 0.2s ease-in-out;
+					&:hover{
+						background: #efefef;
+						// border-color: #3399cc;
+				}
+			}
+		
+			.panel-click-border{
+				border: 2px solid #3399cc;
+			}
+			.panel-body{
+				 
+					h4{
+
+					font-family: $font-secondry;
+					margin: 0px !important;
+					font-size: 15px;
 					padding: 12px;
 					position: absolute;
 					top: 50%;
@@ -1984,3 +2136,8 @@ span.round-tab:hover {
 	
 }
 /*----------------------Degree Showing Step/ Well Designs End---------------------------------------*/
+
+
+}// Media 425px Closed
+
+
