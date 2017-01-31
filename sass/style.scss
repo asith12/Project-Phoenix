@@ -1416,7 +1416,7 @@ h1, h2, h3, h4, h5, h6, figure, option {
 		border-color: $brand-primary;
   }
   	&:focus:required:invalid:focus{
-  		
+  		border-color: $brand-red
   	}
 }
 
@@ -2062,7 +2062,7 @@ span.round-tab:hover {
 							top: 60%;
 							left: 50%;
 							transform: translate(-50%, -50%);
-							font-size: 10px;
+							font-size: 12px;
 							text-transform: uppercase;
 							
 							}
@@ -2120,7 +2120,7 @@ span.round-tab:hover {
 
 					font-family: $font-secondry;
 					margin: 0px !important;
-					font-size: 15px;
+					font-size: 12px !important;
 					padding: 12px;
 					position: absolute;
 					top: 50%;
@@ -2136,6 +2136,23 @@ span.round-tab:hover {
 	
 }
 /*----------------------Degree Showing Step/ Well Designs End---------------------------------------*/
+// Form Input Field
+.form-control {
+	box-shadow: none;
+	background: transparent;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	height: 45px;
+	font-size: 12px;
+	font-weight: 300;
+  	&:active, &:focus {
+  		outline: none;
+		box-shadow: none;
+		border-color: $brand-primary;
+  }
+  	&:focus:required:invalid:focus{
+  		border-color: $brand-red
+  	}
+}
 
 
 }// Media 425px Closed
