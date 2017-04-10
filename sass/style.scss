@@ -1918,10 +1918,6 @@ span.round-tab:hover {
 
 
 /*----------------------Select Box Style-------------------------------------------*/
-		.subject-select-box {
-		    overflow: hidden;
-		    background: #fafafa url("images/arrow-icon.png") no-repeat 90% 50%;
-		}
 
 		.subject-select-box select {
 		    padding: 5px 8px;
@@ -2010,8 +2006,17 @@ span.round-tab:hover {
 		text-align: center !important;
 
 	}
+}	
 	
+// Subject Streme select tile size override	
+@media(min-width: 720px){
+			
+			.col-md-3 {
+				width: 20% !important;	
+			
+	}		
 
+	
 	/*------------------------------SUBJECT SELECT FIRST STEP-----------------------------------*/	
 .subject-content{
 			
@@ -2022,7 +2027,7 @@ span.round-tab:hover {
 			.col-md-3{
 				padding-left: 0 !important;
 				padding-right: 0 !important;
-				
+
 				.panel {
 					cursor:pointer;
 					margin: 5px !important;

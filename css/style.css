@@ -1484,10 +1484,6 @@ h4 {
 
 /*----------------------Custom Radio Buttons End ---------------------------------------*/
 /*----------------------Select Box Style-------------------------------------------*/
-.subject-select-box {
-  overflow: hidden;
-  background: #fafafa url("images/arrow-icon.png") no-repeat 90% 50%; }
-
 .subject-select-box select {
   padding: 5px 8px;
   width: 130%;
@@ -1537,7 +1533,10 @@ h4 {
 @media (max-width: 425px) {
   h1, .h1 {
     font-size: 20px !important;
-    text-align: center !important; }
+    text-align: center !important; } }
+@media (min-width: 720px) {
+  .col-md-3 {
+    width: 20% !important; }
 
   /*------------------------------SUBJECT SELECT FIRST STEP-----------------------------------*/
   .subject-content {
