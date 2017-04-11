@@ -1990,6 +1990,22 @@ span.round-tab:hover {
 	text-align:center;
 	font-size: 32px;
 }
+
+/*----------------------University Cource Details Show MODAL---------------------------------------*/
+	.bs-example-modal-lg{
+
+		.unidetails-modal{
+			min-height: 50px;
+		}	
+
+		.modal-body{
+			
+		}
+
+	}
+	
+/*----------------------University Cource Details Show MODAL End---------------------------------------*/
+
 /*----------------------Degree Showing Step/ Well Designs End---------------------------------------*/
 
 
@@ -2164,23 +2180,4 @@ span.round-tab:hover {
 
 }// Media 425px Closed
 
-/* overlay hidden row on large screen to make it full width */
-@media (min-width:992px) {
-    .row {
-        position:relative;
-        padding-bottom: 30px;
-    }
-    .overlay {
-      position: absolute;
-      z-index: 1;
-      bottom: 0;
-    }
-}
-
-
-/* in order for accordion behavior of collapse to work
-.panel must be used this CSS is to hide the shadow */
-.panel {
-    box-shadow:initial;
-}
 
