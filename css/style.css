@@ -1431,7 +1431,7 @@ h4 {
   background: #e6e6e6; }
 
 .first-step-Control__indicator {
-  top: -94px !important; }
+  top: 80px !important; }
 
 .control--radio .control__indicator {
   border-radius: 50%; }
@@ -1440,8 +1440,6 @@ h4 {
   font-size: 18px;
   position: relative;
   display: inline-block;
-  margin-bottom: 15px;
-  padding-left: 30px;
   cursor: pointer; }
 
 .control input {
@@ -1530,13 +1528,13 @@ h4 {
   font-size: 32px; }
 
 /*----------------------Degree Showing Step/ Well Designs End---------------------------------------*/
+@media (min-width: 720px) {
+  .col-md-3 {
+    width: 20% !important; } }
 @media (max-width: 425px) {
   h1, .h1 {
     font-size: 20px !important;
-    text-align: center !important; } }
-@media (min-width: 720px) {
-  .col-md-3 {
-    width: 20% !important; }
+    text-align: center !important; }
 
   /*------------------------------SUBJECT SELECT FIRST STEP-----------------------------------*/
   .subject-content {

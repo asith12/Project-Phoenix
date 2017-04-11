@@ -1851,8 +1851,8 @@ span.round-tab:hover {
   height: 20px;
   background: #e6e6e6;
 }
-.first-step-Control__indicator{
-	top:-94px !important
+.first-step-Control__indicator{ // Hight of the Radio Indicator in side the Box
+	top:80px !important
 }
 .control--radio .control__indicator {
   border-radius: 50%;
@@ -1862,8 +1862,8 @@ span.round-tab:hover {
   font-size: 18px;
   position: relative;
   display: inline-block;
-  margin-bottom: 15px;
-  padding-left: 30px;
+  // margin-bottom: 15px;
+  // padding-left: 30px;
   cursor: pointer;
 }
 
@@ -1998,6 +1998,13 @@ span.round-tab:hover {
 
 
 //=================================== Media quary Start =============================================//
+//Subject Streme select tile size override	
+@media(min-width: 720px){
+			
+			.col-md-3 {
+				width: 20% !important;	
+			}
+	}		
 
 @media(max-width:425px){
 	
@@ -2006,17 +2013,11 @@ span.round-tab:hover {
 		text-align: center !important;
 
 	}
-}	
 	
-// Subject Streme select tile size override	
-@media(min-width: 720px){
-			
-			.col-md-3 {
-				width: 20% !important;	
-			
-	}		
+	
+	
 
-	
+
 	/*------------------------------SUBJECT SELECT FIRST STEP-----------------------------------*/	
 .subject-content{
 			
