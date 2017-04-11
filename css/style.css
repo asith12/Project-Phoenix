@@ -1620,5 +1620,19 @@ h4 {
       border-color: #8dc449; }
     .form-control:focus:required:invalid:focus {
       border-color: #e9322d; } }
+/* overlay hidden row on large screen to make it full width */
+@media (min-width: 992px) {
+  .row {
+    position: relative;
+    padding-bottom: 30px; }
+
+  .overlay {
+    position: absolute;
+    z-index: 1;
+    bottom: 0; } }
+/* in order for accordion behavior of collapse to work
+.panel must be used this CSS is to hide the shadow */
+.panel {
+  box-shadow: initial; }
 
 /*# sourceMappingURL=style.css.map */
