@@ -747,31 +747,60 @@
 										  </li>	
 
 										  <li class="list-group-item">
-										  	Faculty Offering
+											  <div class="row">
+												  	<div class="col-md-6 topic-side">Faculty Offering</div>
+												  	<div class="col-md-6">University of Colombo School of Computing</div>
+											  </div>	
 										  </li>
 										  
 										  <li class="list-group-item">
-										  	Duration(Years)
+										  		 <div class="row">
+												  	<div class="col-md-6 topic-side">Duration</div>
+												  	<div class="col-md-6">4 Years</div>
+											  	</div>
+										   </li>
+										  
+										  <li class="list-group-item">
+										  		<div class="row">
+												  	<div class="col-md-6 topic-side">Annual Intake</div>
+												  	<div class="col-md-6">180</div>
+											  	</div>
+										   </li>
+										  
+										  <li class="list-group-item">
+										  		<div class="row">
+												  	<div class="col-md-6 topic-side">Aptitude Test</div>
+												  	<div class="col-md-6">No</div>
+											  	</div>
 										  </li>
 										  
 										  <li class="list-group-item">
-										  	Annual Intake
+										  		<div class="row">
+												  	<div class="col-md-6 topic-side">O/L Examination Requirementst</div>
+												  	<div class="col-md-6">None</div>
+											  	</div>
 										  </li>
 										  
 										  <li class="list-group-item">
-										  	Aptitude Test
+										  		<div class="row">
+												  	<div class="col-md-6 topic-side">Special Requirements</div>
+												  	<div class="col-md-6">At least a credit pass (C) in Combined Mathematics or Physics or Higher Mathematics AND at least a PASS (S) in TWO other subjects listed below at the G.C.E. (A/L) Examination.
+												  	</div>
+											  	</div>
 										  </li>
 										  
 										  <li class="list-group-item">
-										  	O/L Examination Requirements
-										  </li>
-										  
-										  <li class="list-group-item">
-										  	Special Requirements
-										  </li>
-										  
-										  <li class="list-group-item">
-										  	Faculty Web
+										  		<div class="row">
+												  	<div class="col-md-6 topic-side">Faculty Web</div>
+												  	
+												  	<div class="col-md-5">http://ucsc.lk/ug/cs</div>
+												  	
+												  	<a href="http://ucsc.lk/ug/cs" target="_black">
+													  	<div class="col-md-1 external-page-link" data-toggle="tooltip" data-placement="left" title="click to visit the faculty web"><i class="fa fa-globe" aria-hidden="true"></i>
+													  	</div>
+												  	</a>
+											  	
+											  	</div>
 										  </li>
 										</ul>
 
@@ -797,7 +826,11 @@
 			      </div><!-- / modal-body closed-->
 			      
 			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      	<ul class="list-inline pull-right">
+			      		<li>Submit Feedback</li>
+				      	<li><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Print or Save this in Your Local Computer" onclick="printFunction()"><i class="fa fa-print" aria-hidden="true"></i></button></li>
+				        <li><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></li>
+			        </ul>
 			      </div>
 			    </div><!-- /.modal-content -->
 			  </div><!-- /.modal-dialog -->
@@ -941,6 +974,14 @@
 
 	<script src="js/cbpFWTabs.js"></script>
 	<!--University Details view Modal-->
+
+	<!--Modal Details Print Function-->
+	<!-- <script>
+		function printFunction() {
+		    window.print();
+		}
+	</script> -->
+	<!--/Modal Details Print Function-->
 
 	<script type="text/javascript">
 		$(document).ready(function () {

@@ -2007,6 +2007,20 @@ span.round-tab:hover {
 				// h4{
 				// 	float: left;
 				// }
+				.list-group{
+
+					.list-group-item{
+						
+						.topic-side{
+								color: #555555;
+						}
+
+						.external-page-link{
+							color: #3399cc;
+							border-left: solid 1px #ddd;
+						}
+					}
+				}
 			}
 
 			/*****************************/
@@ -2079,7 +2093,7 @@ span.round-tab:hover {
 				margin: 0 auto;
 				width: 100%;
 				font-weight: 300;
-				font-size: 1.25em;
+				font-size: 1em;
 			}
 
 			/* Nav */

@@ -1540,6 +1540,11 @@ h4 {
     /* Nav */
     /* Content */
     /* Fallback */ }
+    .bs-example-modal-lg .modal-body .content-wrap .list-group .list-group-item .topic-side {
+      color: #555555; }
+    .bs-example-modal-lg .modal-body .content-wrap .list-group .list-group-item .external-page-link {
+      color: #3399cc;
+      border-left: solid 1px #ddd; }
     .bs-example-modal-lg .modal-body .tabs-style-linemove nav {
       background: #fff; }
     .bs-example-modal-lg .modal-body .tabs-style-linemove nav li:last-child::before {
@@ -1584,7 +1589,7 @@ h4 {
       margin: 0 auto;
       width: 100%;
       font-weight: 300;
-      font-size: 1.25em; }
+      font-size: 1em; }
     .bs-example-modal-lg .modal-body .tabs nav {
       text-align: center; }
     .bs-example-modal-lg .modal-body .tabs nav ul {
