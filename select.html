@@ -36,7 +36,7 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
-	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	
@@ -56,7 +56,6 @@
 	<!--Grip System Lib-->
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<script src="js/modernizr.custom.js"></script>
-
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -377,6 +376,7 @@
 				                		</div>
 				                        
 				                        <ul class="list-inline pull-right">
+				                        	<li><button type="button" class="btn btn-default"><i class=" fa fa-question-circle"></i></button></li>
 				                            <li><button type="button" class="btn btn-primary next-step" >Save and continue</button></li>
 				                        </ul>
 				                    </div>
@@ -720,9 +720,9 @@
 			  <div class="modal-dialog modal-lg" role="document">
 			    <div class="modal-content">
 			      
-			      <div class="modal-header unidetails-modal">
+			      <div class="modal-header unidetails-modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="gridSystemModalLabel"></h4>
+			        <h4 class="modal-title" id="gridSystemModalLabel">Course Details</h4>
 			      </div>
 			      
 			      <div class="modal-body">
@@ -731,19 +731,65 @@
 							<div class="tabs tabs-style-linemove">
 								<nav>
 									<ul>
-										<li><a href="#section-linemove-1" class="icon icon-home"><span>Home</span></a></li>
-										<li><a href="#section-linemove-2" class="icon icon-box"><span>Archive</span></a></li>
-										<li><a href="#section-linemove-3" class="icon icon-display"><span>Analytics</span></a></li>
-										<li><a href="#section-linemove-4" class="icon icon-upload"><span>Upload</span></a></li>
-										<li><a href="#section-linemove-5" class="icon icon-tools"><span>Settings</span></a></li>
+										<li><a href="#section-linemove-1"><i class="fa fa-info-circle"></i> General</a></li>
+										<li><a href="#section-linemove-2"><i class="fa fa-graduation-cap" ></i> Degree</a></li>
+										<li><a href="#section-linemove-3"><i class="fa fa-briefcase"></i> Employment</a></li>
 									</ul>
 								</nav>
 								<div class="content-wrap">
-									<section id="section-linemove-1"><p>1</p></section>
-									<section id="section-linemove-2"><p>2</p></section>
-									<section id="section-linemove-3"><p>3</p></section>
-									<section id="section-linemove-4"><p>4</p></section>
-									<section id="section-linemove-5"><p>5</p></section>
+									<!--section 1-->
+									<section id="section-linemove-1">
+										
+										
+										<ul class="list-group">
+										  <li class="list-group-item">
+										  	<h4>B.Sc. In Computer Science</h4>
+										  </li>	
+
+										  <li class="list-group-item">
+										  	Faculty Offering
+										  </li>
+										  
+										  <li class="list-group-item">
+										  	Duration(Years)
+										  </li>
+										  
+										  <li class="list-group-item">
+										  	Annual Intake
+										  </li>
+										  
+										  <li class="list-group-item">
+										  	Aptitude Test
+										  </li>
+										  
+										  <li class="list-group-item">
+										  	O/L Examination Requirements
+										  </li>
+										  
+										  <li class="list-group-item">
+										  	Special Requirements
+										  </li>
+										  
+										  <li class="list-group-item">
+										  	Faculty Web
+										  </li>
+										</ul>
+
+									</section>
+									<!--/section 1-->
+
+									<!--section 2-->
+									<section id="section-linemove-2">
+
+									</section>
+									<!--/section-->
+									
+									<!--section-->
+									<section id="section-linemove-3">
+
+									</section>
+									<!--/section-->
+									
 								</div><!-- /content -->
 							</div><!-- /tabs -->
 						</section>
@@ -892,6 +938,9 @@
 	
 	<script src="js/jquery.steps.js"></script>
 	<!--form wizard js-->
+
+	<script src="js/cbpFWTabs.js"></script>
+	<!--University Details view Modal-->
 
 	<script type="text/javascript">
 		$(document).ready(function () {
