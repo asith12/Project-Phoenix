@@ -602,7 +602,8 @@
 													<!--Dynamic Section STARTING-->	
 													<!--individual div section for each subjects-->	
 													<!-- data-toggle="modal" data-target=".bs-example-modal-lg" -->
-														<div class="col-md-12 col-xs-12 ">
+													<div class="expander-wrapper">
+														<div class="col-md-12 col-xs-12" >
 															<div class="panel panel-default degree-show-panel">
 																<div class="panel-body">
 																	<h4>Bachelors Degrees in <strong>Accounting</strong> </h4>
@@ -610,7 +611,21 @@
 															</div>
 														</div>
 
-														<div class="col-md-12 col-xs-12 ">
+														<!--Universities-->
+														<div class="degree-collapse-div col-md-6 col-xs-12">
+															<div class="panel panel-default degree-show-panel">
+																<div class="panel-body">
+																	<h4>Bachelors Degrees in <strong>Accounting</strong> </h4>
+																</div>	
+															</div>
+														</div>
+														<!--/Universities-->
+
+
+													</div>	<!--/expander wrapper-->
+														
+
+														<div class="col-md-12 col-xs-12 data-toggle="collapse" data-parent="#accordion" href="#collapse3">
 															<div class="panel panel-default degree-show-panel">
 																<div class="panel-body">
 																	<h4>Bachelors Degrees in <strong>Administration</strong></h4>
@@ -618,7 +633,7 @@
 															</div>
 														</div>
 														
-														<div class="col-md-12 col-xs-12 ">
+														<div class="col-md-12 col-xs-12 data-toggle="collapse" data-parent="#accordion" href="#collapse3">
 															<div class="panel panel-default degree-show-panel">
 																<div class="panel-body">
 																	<h4>Bachelors Degrees in <strong>Advertising</strong></h4>
@@ -1190,6 +1205,17 @@
 		</script>
 	<!--/University degree details modal -->
 	
+	<!--Degree show collapse to university show expander-->
+		<script>
+				v$(document).ready(function(){
+			    $('.show_hide').click(function(){
+			        $(this).next('.slidingDiv').slideToggle();
+			         return false;
+			    });
+			});
+		</script>
+
+	<!--//Degree show collapse to university show expander-->	
 
 	</body>
 </html>
