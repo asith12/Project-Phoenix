@@ -1702,11 +1702,11 @@ span.round-tab:hover {
 /**********************************SUBJECT SELECT FIRST STEP*************************************/	
 .subject-content{
 			
-			width: 90%;
+			width: 85%;
 			margin:  0 auto;
 			
 
-			.col-md-3{
+			.col-md-2{
 				padding-left: 0 !important;
 				padding-right: 0 !important;
 				
@@ -1736,7 +1736,7 @@ span.round-tab:hover {
 			.panel-body{
 				 			img{
 								display: block;
-								max-height: 85px;
+								max-height: 90px;
 
 				 			}	
 
@@ -1744,13 +1744,13 @@ span.round-tab:hover {
 
 							h4{
 							font-family: $font-secondry;
-							margin: 0px !important;
+							margin: 0!important;
 							padding: 12px;
 							position: absolute;
 							top: 50%;
 							left: 50%;
 							transform: translate(-50%, -50%);
-							font-size: 18px;
+							font-size: 14px;
 							text-transform: uppercase;
 							
 							}
@@ -1957,7 +1957,7 @@ span.round-tab:hover {
 				    transition: all 0.2s ease-in-out;
 					&:hover{
 						background: #efefef;
-						// border-color: #3399cc;
+						 border-color: #3399cc;
 				}
 			}
 		
@@ -1967,9 +1967,12 @@ span.round-tab:hover {
 			.panel-body{
 				 
 					h4{
+						margin-top: 0 !important;
+						margin-right: 0 !important;
+						margin-left: 0 !important;
+						margin-bottom: 0 !important;
+						font-family: $font-secondry;
 
-					font-family: $font-secondry;
-					margin: 0px !important;
 					font-size: 15px;
 					padding: 12px;
 					position: absolute;

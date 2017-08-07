@@ -1355,12 +1355,12 @@ span.round-tab:hover {
 
 /**********************************SUBJECT SELECT FIRST STEP*************************************/
 .subject-content {
-  width: 90%;
+  width: 85%;
   margin: 0 auto; }
-  .subject-content .col-md-3 {
+  .subject-content .col-md-2 {
     padding-left: 0 !important;
     padding-right: 0 !important; }
-    .subject-content .col-md-3 .panel {
+    .subject-content .col-md-2 .panel {
       cursor: pointer;
       margin: 5px !important;
       height: 241.50px;
@@ -1370,22 +1370,22 @@ span.round-tab:hover {
       -ms-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
-      .subject-content .col-md-3 .panel:hover {
+      .subject-content .col-md-2 .panel:hover {
         background: #efefef; }
-    .subject-content .col-md-3 .panel-click-border {
+    .subject-content .col-md-2 .panel-click-border {
       border: solid  #3399cc; }
-    .subject-content .col-md-3 .panel-body img {
+    .subject-content .col-md-2 .panel-body img {
       display: block;
-      max-height: 85px; }
-    .subject-content .col-md-3 .panel-body h4 {
+      max-height: 90px; }
+    .subject-content .col-md-2 .panel-body h4 {
       font-family: "Montserrat", sans-serif;
-      margin: 0px !important;
+      margin: 0 !important;
       padding: 12px;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 18px;
+      font-size: 14px;
       text-transform: uppercase; }
 
 /**********************************SUBJECT SELECT FIRST STEP END*************************************/
@@ -1510,12 +1510,16 @@ h4 {
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
       .bs-calltoaction-degree-show .cta-contents .col-md-6 .panel:hover {
-        background: #efefef; }
+        background: #efefef;
+        border-color: #3399cc; }
     .bs-calltoaction-degree-show .cta-contents .col-md-6 .panel-click-border {
       border: 2px solid #3399cc; }
     .bs-calltoaction-degree-show .cta-contents .col-md-6 .panel-body h4 {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      margin-bottom: 0 !important;
       font-family: "Montserrat", sans-serif;
-      margin: 0px !important;
       font-size: 15px;
       padding: 12px;
       position: absolute;
