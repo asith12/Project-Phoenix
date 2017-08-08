@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6, figure, option {
     transform: scale(1.2); }
 
 .fh5co-cover {
-  height: 800px;
+  height: 100vh;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
