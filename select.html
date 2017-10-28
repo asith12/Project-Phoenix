@@ -600,7 +600,7 @@
 													<!-- data-toggle="modal" data-target=".bs-example-modal-lg" -->
 													<!-- <div class="expander-wrapper"> -->
 														
-														<div class="dregree_wid col-md-12 col-xs-12" id="">
+														<div class="degree_wid col-md-12 col-xs-12" id="degree_wid">
 															<div class="panel panel-default degree-show-panel">
 																<div class="panel-body">
 																	<h4>Bachelors Degrees in <strong>Accounting</strong> </h4>
@@ -609,13 +609,24 @@
 														</div>
 
 														<!--Universities-->
-														<div class="uni_show_div col-md-12 col-xs-12" id="">
-															<!-- <div class="panel panel-default">
-																<div class="panel-body">
-																	<h4>This is the Expanded div</h4>
-																</div>	
-															</div> -->
-															<h4>Expanding div</h4>
+														<div class="uni_show_div col-md-12 col-xs-12" id="uni_show">
+															
+															<div class="col-md-6 col-xs-6">
+																<div class="panel panel-default degree-show-panel">
+																	<div class="panel-body">
+																		<h4>Bachelors Degrees in <strong>Administration</strong></h4>
+																	</div>	
+																</div>
+															</div>
+
+															<div class="col-md-6 col-xs-6">
+																<div class="panel panel-default degree-show-panel">
+																	<div class="panel-body">
+																		<h4>Bachelors Degrees in <strong>Administration</strong></h4>
+																	</div>	
+																</div>
+															</div>
+
 														</div>
 														<!--/Universities-->
 
@@ -1063,14 +1074,16 @@
 	<script src="js/cbpFWTabs.js"></script>
 	<!--University Details view Modal-->
 
-	<!--Modal Details Print Function-->
-	<script>
-	//window print trigger function
-		// function printFunction() {
-		//     window.print();
-		// };
+	
 
-	//print elements specified function
+	<!--Modal Details Print Function-->
+	<!-- <script>
+	window print trigger function
+		function printFunction() {
+		    window.print();
+		};
+
+	print elements specified function
 	document.getElementById(".btn-print").onclick = function() {
     printElement(document.getElementById("printthis"));
     printElement(document.getElementById("printThisToo"), true, "<hr />");
@@ -1098,7 +1111,7 @@
         }
         else if (typeof(delimiter) === "object") {
             $printSection.appendChlid(deli	
-	</script>
+	</script> -->
 	
 	<!--/Modal Details Print Function-->
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -1202,18 +1215,18 @@
 			})();
 		</script>
 	<!--/University degree details modal -->
-	
+		
 	<!--Degree show collapse to university show expander-->
-		<script>
-				v$(document).ready(function(){
-			    $('.show_hide').click(function(){
-			        $(this).next('.degree-collapse-div').slideToggle();
-			         return false;
+		<script> 
+			$(document).ready(function(){
+			    $("#degree_wid").click(function(){
+			        $("#uni_show").slideToggle("fast");
 			    });
 			});
 		</script>
 
-	<!--//Degree show collapse to university show expander-->	
+	<!--//Degree show collapse to university show expander-->		
+	
 
 	</body>
 </html>

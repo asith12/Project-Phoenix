@@ -1988,8 +1988,12 @@ span.round-tab:hover {
 		}
 
 		.uni_show_div{
-			background: #d8d8d8;
-			height: 50px;
+			display: none;
+			font-size: 12px;
+			padding: 12px;
+			border-radius: 4px;
+			background: #efefef;
+			height: auto;
 		}
 	}
 	
