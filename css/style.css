@@ -1376,7 +1376,8 @@ span.round-tab:hover {
       border: solid  #3399cc; }
     .subject-content .col-md-2 .panel-body img {
       display: block;
-      max-height: 90px; }
+      margin: auto;
+      max-height: 85px; }
     .subject-content .col-md-2 .panel-body h4 {
       font-family: "Montserrat", sans-serif;
       margin: 0 !important;
