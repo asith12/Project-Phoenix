@@ -1527,6 +1527,9 @@ h4 {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
+  .bs-calltoaction-degree-show .cta-contents .uni_show_div {
+    background: #d8d8d8;
+    height: 50px; }
 
 .cta-title {
   text-align: center;
