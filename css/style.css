@@ -1528,12 +1528,30 @@ h4 {
       left: 50%;
       transform: translate(-50%, -50%); }
   .bs-calltoaction-degree-show .cta-contents .uni_show_div {
+    border: solid 1px #dddddd;
     display: none;
     font-size: 12px;
     padding: 12px;
     border-radius: 4px;
-    background: #efefef;
-    height: auto; }
+    background: #f9f9f9;
+    height: auto;
+    position: relative;
+    margin-bottom: 2px;
+    margin-top: 2px; }
+    .bs-calltoaction-degree-show .cta-contents .uni_show_div:before, .bs-calltoaction-degree-show .cta-contents .uni_show_div:after {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      width: 0;
+      height: 0; }
+    .bs-calltoaction-degree-show .cta-contents .uni_show_div:before {
+      left: 19px;
+      border: 11px solid transparent;
+      border-bottom-color: #f9f9f9; }
+    .bs-calltoaction-degree-show .cta-contents .uni_show_div:after {
+      left: 20px;
+      border: 10px solid transparent;
+      border-bottom-color: #f9f9f9; }
 
 .cta-title {
   text-align: center;
