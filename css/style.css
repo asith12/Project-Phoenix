@@ -1710,6 +1710,9 @@ h4 {
     font-size: 20px !important;
     text-align: center !important; }
 
+  .bs-calltoaction-degree-show .cta-contents .col-md-12 .panel-body h4 {
+    font-size: 12px; }
+
   /*------------------------------SUBJECT SELECT FIRST STEP-----------------------------------*/
   .subject-content {
     width: 90%;
