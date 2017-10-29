@@ -276,8 +276,9 @@
 	</footer>
 	</div>
 
+	<!--BacktoTop-->
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		<a href="#" class="js-gotop"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
 	</div>
 
 
@@ -327,53 +328,7 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	<!--form wizard js-->
-	<script type="text/javascript">
-				$(document).ready(function () {
-		    //Initialize tooltips
-		    $('.nav-tabs > li a[title]').tooltip();
-		    
-		    //Wizard
-		    $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
-
-		        var $target = $(e.target);
-		    
-		        if ($target.parent().hasClass('disabled')) {
-		            return false;
-		        }
-		    });
-
-		    $(".next-step").click(function (e) {
-
-		        var $active = $('.wizard .nav-tabs li.active');
-		        $active.next().removeClass('disabled');
-		        nextTab($active);
-
-		    });
-		    $(".prev-step").click(function (e) {
-
-		        var $active = $('.wizard .nav-tabs li.active');
-		        prevTab($active);
-
-		    });
-
-
-		    $(".subjectstile").click(function (e) {
-
-		    	$(".subjectstile").removeClass("subjectstile-active");
-		        $(this).addClass("subjectstile-active");
-
-		    });
-
-		});
-
-		function nextTab(elem) {
-		    $(elem).next().find('a[data-toggle="tab"]').click();
-		}
-		function prevTab(elem) {
-		    $(elem).prev().find('a[data-toggle="tab"]').click();
-		}
-	</script>
+	
 	
 	</body>
 </html>
