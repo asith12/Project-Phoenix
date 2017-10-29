@@ -1588,11 +1588,11 @@ h4 {
       -webkit-transition: -webkit-transform 0.3s;
       transition: transform 0.3s; }
     .bs-example-modal-lg .modal-body .tabs-style-linemove nav li:first-child.tab-current ~ li:last-child::before {
+      -webkit-transform: translate3d(-300%, 0, 0);
+      transform: translate3d(-300%, 0, 0); }
+    .bs-example-modal-lg .modal-body .tabs-style-linemove nav li:nth-child(2).tab-current ~ li:last-child::before {
       -webkit-transform: translate3d(-200%, 0, 0);
       transform: translate3d(-200%, 0, 0); }
-    .bs-example-modal-lg .modal-body .tabs-style-linemove nav li:nth-child(2).tab-current ~ li:last-child::before {
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0); }
     .bs-example-modal-lg .modal-body .tabs-style-linemove nav li:nth-child(3).tab-current ~ li:last-child::before {
       -webkit-transform: translate3d(-100%, 0, 0);
       transform: translate3d(-100%, 0, 0); }
