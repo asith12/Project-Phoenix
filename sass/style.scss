@@ -891,7 +891,7 @@ h1, h2, h3, h4, h5, h6, figure, option {
 #fh5co-testimonial {
 	background: #efefef;
 	.testimony-slide{
-		// display: none;
+		display: none;
 		text-align: center;
 		span{
 			font-size: 12px;
@@ -1044,6 +1044,14 @@ h1, h2, h3, h4, h5, h6, figure, option {
 	.copyright {
 		.block {
 			display: block;
+		}
+		p{
+			small{
+
+				i{
+					color: red;
+				}
+			}
 		}
 	}
 }

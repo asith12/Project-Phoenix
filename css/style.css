@@ -687,6 +687,7 @@ h1, h2, h3, h4, h5, h6, figure, option {
 #fh5co-testimonial {
   background: #efefef; }
   #fh5co-testimonial .testimony-slide {
+    display: none;
     text-align: center; }
     #fh5co-testimonial .testimony-slide span {
       font-size: 12px;
@@ -799,6 +800,8 @@ h1, h2, h3, h4, h5, h6, figure, option {
       text-transform: uppercase; }
   #fh5co-footer .copyright .block {
     display: block; }
+  #fh5co-footer .copyright p small i {
+    color: red; }
 
 #fh5co-offcanvas {
   position: absolute;
